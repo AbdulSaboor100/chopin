@@ -1,0 +1,23 @@
+{
+  "source": {
+    "include": [
+      "src","./App.js"
+    ],
+    "includePattern": ".js$",
+    "excludePattern": "(node_modules/|docs)"
+  },
+  "plugins": [
+    "plugins/markdown",
+    "node_modules/better-docs/typescript"
+  ],
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true
+  },
+  "opts": {
+    "recurse": true,
+    "template": "node_modules/better-docs",
+    "destination": "./docs/",
+    "readme": "./README.md"
+  }
+}
