@@ -36,13 +36,14 @@ class App extends Component {
    */
   componentDidMount() {
     const firebaseConfig = {
-      apiKey: "AIzaSyBlb7_ArxvyHR2od7TSkizpsln7VYXhqic",
-      authDomain: "learning-cool.firebaseapp.com",
-      projectId: "learning-cool",
-      storageBucket: "learning-cool.appspot.com",
-      messagingSenderId: "1085554141933",
-      appId: "1:1085554141933:web:fb2b6808724a522b2cfae4",
-      measurementId: "G-NR68Y9M2FW"
+      PersistenceEnabled: true,
+      apiKey: "AIzaSyAF_rY_VHwjw_sHV-XTwQtxyrx-L1r1XoE",
+      authDomain: "shoppinglist-6cc7b.firebaseapp.com",
+      projectId: "shoppinglist-6cc7b",
+      storageBucket: "shoppinglist-6cc7b.appspot.com",
+      messagingSenderId: "899980789044",
+      appId: "1:899980789044:web:437a9d1df1252be5abd161",
+      measurementId: "G-F5XJDKGDKF"
     };
     /**
      * if the instance of firebase is already intialized don't do it again
